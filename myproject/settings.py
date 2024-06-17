@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-o^+n7pshtbtbdr@17y^st&xn#^#!14jrlf-o@88+x^+1j!#!j1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.gitpod.io']
+ALLOWED_HOSTS = ['localhost', '.gitpod.io', 'lydia-django-blog-attempt3-1.onrender.com']
+
 
 
 # Application definition
