@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
@@ -86,7 +85,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 #}
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.parse(os.environ.get("postgres://udft1pzoj6w:MHVsTbtM19Sz@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/salt_fox_stool_317990"))
 }
 
 
