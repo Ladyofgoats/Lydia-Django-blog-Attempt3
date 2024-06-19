@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("django-insecure-o^+n7pshtbtbdr@17y^st&xn#^#!14jrlf-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.gitpod.io', 'lydia-django-blog-attempt3-1.onrender.com', '8000-ladyofgoats-lydiadjango-chdehse6bmc.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['localhost', '.gitpod.io', 'lydia-django-blog-attempt3-1.onrender.com', '8000-ladyofgoats-lydiadjango-chdehse6bmc.ws-eu114.gitpod.io', http://8000-ladyofgoats-lydiadjango-id2r4nw4r1c.ws-eu114.gitpod.io/]
 
  RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
  if RENDER_EXTERNAL_HOSTNAME:
